@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "env": {
+  	"mocha": true,
+  	"browser": true
+  },
+
+  "rules": {
+  	"indent": [2, 4],
+  	"no-unused-vars": 1,
+  	"id-length": 0,
+  	"react/no-multi-comp": 0,
+  	"react/prop-types": 1,
+  	"prefer-const": 1
+  },
+}
