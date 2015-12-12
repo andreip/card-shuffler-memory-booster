@@ -1,0 +1,24 @@
+{
+  "name": "card-shuffler-memory-booster",
+  "version": "1.0.0",
+  "description": "An app that shuffles 52 cards or less and you need to memorize them and place them in the exact order they were randomly generated for you.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreip/card-shuffler-memory-booster.git"
+  },
+  "keywords": [
+    "cards",
+    "shuffler",
+    "memory"
+  ],
+  "author": "Andrei Petre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreip/card-shuffler-memory-booster/issues"
+  },
+  "homepage": "https://github.com/andreip/card-shuffler-memory-booster#readme"
+}
