@@ -62,17 +62,29 @@ CardsList.propTypes = {
     cards: React.PropTypes.array,
 };
 
-class CardsApp extends React.Component {
+class CardsActionPanel extends React.Component {
     render() {
         return (
-            <div>
-                <button onClick={() => {
+            <div className="jumbotron">
+                <h1>Cards Shuffler</h1>
+                <p>This is a tool to help with memorizing cards.</p>
+                <button type="button" className="btn btn-large btn-success" onClick={() => {
                     store.dispatch({
                         type: 'GENERATE_CARDS',
                     });
                 }}>
                     Generate Random Cards
                 </button>
+            </div>
+        );
+    }
+}
+
+class CardsApp extends React.Component {
+    render() {
+        return (
+            <div className="container">
+                <CardsActionPanel />
                 <CardsList cards={this.props.cards} />
             </div>
         );
